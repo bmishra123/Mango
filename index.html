@@ -260,7 +260,7 @@
       localStorage.setItem("bookedSeats", JSON.stringify(bookedSeats));
 
       // Send booking data to Google Sheets via Apps Script (write your Apps Script Web App URL here)
-      fetch('https://script.google.com/macros/s/AKfycbwsRprYJC6GZ-LBGrLy4QHHSDGLXRgrYRda1yMvXC_jJTVFceTDyL44OoPRR3WNeeE5Gg/exec', {
+      fetch('https://script.google.com/macros/s/AKfycby40lnKzQIvLjf2EKD5yrDsRqLwWF0OoRZ36uqUveXD0j2cWMlxsbFbsK47MhI1QTXZZA/exec', {
         method: 'POST',
         body: JSON.stringify(bookingData),
         headers: {
